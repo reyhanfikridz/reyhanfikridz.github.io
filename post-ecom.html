@@ -9,12 +9,19 @@
 	<link rel="stylesheet" type="text/css" href="css/default.css">
 	<link id="theme-style" rel="stylesheet" type="text/css" href="">
 	<style type="text/css">
-		.img-container {
-			max-width: 1200px;
+		.img {
+			width: 100%; 
+			margin-bottom: 0;
+			padding-bottom: 0; 
 		}
 
-		img {
-			width: 100%;
+		.img2 {
+			width: 50%; 
+			margin-bottom: 0;
+		}
+
+		.img3 {
+			width: 70%; 
 		}
 	</style>
 </head>
@@ -31,14 +38,15 @@
 		</div>
 		<div class="main-container">
 			<h3>ECOM</h3>
+			<img class="img" src="images/ecom/buyer_cart.PNG" alt="buyer_register">
 			<p>
 				ECOM is my personal project about a simple E-Commerce website builded with Go backend microservices and Django frontend. This project created because I like playing with Go since July 2022. So in my mind, how about I build a microservices with Go, and so this project is begin.
 			</p>
 			<p>
 				ECOM has three types of user: Buyer, Seller, and Staff. Buyer can buy items, Seller can sell items, and Staff is third party that validate Buyer payment before items processed by Seller.
 			</p>
-			<h5>Screenshots</h5>
-			<p>Coming Soon...</p>
+			<h5>Buyer Order Flow Summary</h5>
+			<img class="img2" src="images/ecom/ecom-buyer-order-flowchart.jpg" alt="ecom-buyer-order-flowchart">
 			<h5>Technologies</h5>
 			<p>ECOM consists of three backend microservices and one frontend server.</p>
 			<ol>
@@ -69,7 +77,7 @@
 				<li>
 					Frontend
 					<ul>
-						<li>- Microservice for managing user account data</li>
+						<li>- ECOM frontend server</li>
 						<li>- Technologies: Python with Django Framework, HTML, CSS, Javascript</li>
 					</ul>
 				</li>
@@ -97,6 +105,40 @@
 					<a href="https://github.com/reyhanfikridz/ecom/tree/release-1">https://github.com/reyhanfikridz/ecom/tree/release-1</a>
 				</li>
 			</ol>
+			<h5>Screenshots</h5>
+			<h6 style="margin-bottom: 0; margin-top: 0;">User Role Buyer</h6>
+			<p>Register</p>
+			<img class="img3" src="images/ecom/buyer_register.PNG" alt="buyer_register">
+			<p>Login</p>
+			<img class="img3" src="images/ecom/buyer_login.PNG" alt="buyer_login">
+			<p>Home / Catalog</p>
+			<img class="img" src="images/ecom/buyer_home.PNG" alt="buyer_home">
+			<p>Product Detail</p>
+			<img class="img" src="images/ecom/buyer_detail_product.PNG" alt="buyer_detail_product.PNG">
+			<p>Cart</p>
+			<img class="img" src="images/ecom/buyer_cart.PNG" alt="buyer_cart.PNG">
+			<p>Order List</p>
+			<img class="img" src="images/ecom/buyer_order_list.PNG" alt="buyer_order_list.PNG">
+			<h6 style="margin-bottom: 0;">User Role Staff</h6>
+			<p>Register</p>
+			<img class="img3" src="images/ecom/staff_register.PNG" alt="staff_register.PNG">
+			<p>Login</p>
+			<img class="img3" src="images/ecom/staff_login.PNG" alt="staff_login.PNG">
+			<p>Home / Order List</p>
+			<img class="img" src="images/ecom/staff_home.PNG" alt="staff_home.PNG">
+			<h6 style="margin-bottom: 0;">User Role Seller</h6>
+			<p>Register</p>
+			<img class="img3" src="images/ecom/seller_register.PNG" alt="seller_register.PNG">
+			<p>Login</p>
+			<img class="img3" src="images/ecom/seller_login.PNG" alt="seller_login.PNG">
+			<p>Home</p>
+			<img class="img" src="images/ecom/seller_home.PNG" alt="seller_home.PNG">
+			<p>Manage Product</p>
+			<img class="img" src="images/ecom/seller_add_product.PNG" alt="seller_add_product.PNG">
+			<p>Order List</p>
+			<img class="img" src="images/ecom/seller_order_list.PNG" alt="seller_order_list.PNG">
+			<hr>
+			<hr>
 			<h5><a href="index.html">&larr; Back to home</a></h5>
 		</div>
 	</section>
