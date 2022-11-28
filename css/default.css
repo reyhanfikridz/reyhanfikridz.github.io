@@ -336,6 +336,30 @@ td {
 	color: var(--mainText);
 }
 
+.backend-list-table {
+	width: 100%;
+}
+
+.backend-list-table thead {
+	color: var(--mainText);
+	font-family: 'Roboto Mono', monospace;
+	font-size: 16px;
+}
+
+.backend-list-table tbody {
+	color: var(--secondaryText);
+	font-family: 'Roboto Mono', monospace;
+	font-size: 14px;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
 @media screen and (max-width: 1200px) {
 	.main-container {
 		width: 95%;
